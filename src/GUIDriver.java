@@ -23,7 +23,9 @@ public class GUIDriver extends JFrame {
     private JSpinner cellSize;
 
     private JMenuBar menuBar;
+    private JMenuItem fileMenu;
     private JMenu gameMenu;
+    private JMenuItem exitGame;
     private JMenuItem random;
     private JMenuItem pulsar;
     private JMenuItem glider;
@@ -55,6 +57,8 @@ public class GUIDriver extends JFrame {
 
         this.menuBar = new JMenuBar();
         this.gameMenu = new JMenu("Game");
+        this.fileMenu = new JMenu("File");
+        this.exitGame = new JMenuItem("Exit");
         this.random = new JMenuItem("Random Game");
         this.pulsar = new JMenuItem("Pulsar");
         this.glider = new JMenuItem("Glider Gun");
@@ -82,9 +86,10 @@ public class GUIDriver extends JFrame {
 
         this.cellSize.addChangeListener(new CellSizeChangeListener(this));
 
-        this.random.addActionListener(new MenuButtonListener(this, (byte)0));
-        this.pulsar.addActionListener(new MenuButtonListener(this, (byte)1));
-        this.glider.addActionListener(new MenuButtonListener(this, (byte)2));
+        this.exitGame.addActionListener(new MenuButtonListener(this, (byte)0));
+        this.random.addActionListener(new MenuButtonListener(this, (byte)1));
+        this.pulsar.addActionListener(new MenuButtonListener(this, (byte)2));
+        this.glider.addActionListener(new MenuButtonListener(this, (byte)3));
     }
 
     /**
@@ -101,9 +106,13 @@ public class GUIDriver extends JFrame {
 
         Dimension buttonSize = new Dimension(200, 130);
 
+        this.fileMenu.add(this.exitGame);
+
         this.gameMenu.add(this.random);
         this.gameMenu.add(this.pulsar);
         this.gameMenu.add(this.glider);
+
+        this.menuBar.add(this.fileMenu);
         this.menuBar.add(this.gameMenu);
 
         setJMenuBar(this.menuBar);

@@ -15,12 +15,14 @@ public class MenuButtonListener implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         switch(this.menuItem){
             case (0):
+                System.exit(0);
+            case (1):
                 this.gui.getMap().generateRandomGame();
                 break;
-            case (1):
+            case (2):
                 this.gui.getMap().generatePulsar();
                 break;
-            case (2):
+            case (3):
                 this.gui.getMap().generateGlider();
                 break;
         }
