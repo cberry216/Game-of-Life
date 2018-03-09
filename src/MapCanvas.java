@@ -66,7 +66,7 @@ public class MapCanvas extends JPanel {
         this.livingCells.clear();
         for(int i = this.numCols / 10; i < this.numCols * 9 / 10; i++) {
             for(int j = this.numRows / 10; j < this.numRows * 9 / 10; j++) {
-                if(Math.random() > 0.5) {
+                if(Math.random() > 0.7) {
                     int xVal = i * this.cellLength;
                     int yVal = j * this.cellLength;
                     this.livingCells.add(new Point(xVal, yVal));

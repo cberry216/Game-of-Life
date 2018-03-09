@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebbee84a-2228-4f8e-a5e6-fc97d01bea98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/GUIDriver.class" afterPath="$PROJECT_DIR$/out/production/GameOfLife/GUIDriver.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/GameOfLife/MenuButtonListener.class" afterPath="$PROJECT_DIR$/out/production/GameOfLife/MenuButtonListener.class" />
-      <change beforePath="$PROJECT_DIR$/src/GUIDriver.java" afterPath="$PROJECT_DIR$/src/GUIDriver.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuButtonListener.java" afterPath="$PROJECT_DIR$/src/MenuButtonListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/MapCanvas.java" afterPath="$PROJECT_DIR$/src/MapCanvas.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapCanvas.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MapCanvas.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MapCanvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2998">
-              <caret line="215" column="27" lean-forward="false" selection-start-line="215" selection-start-column="27" selection-end-line="215" selection-end-column="27" />
+            <state relative-caret-position="169">
+              <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUIDriver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GUIDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUIDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="-930">
               <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -206,9 +201,9 @@
         <option value="$PROJECT_DIR$/src/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/MapMouseListener.java" />
         <option value="$PROJECT_DIR$/src/CellSizeChangeListener.java" />
-        <option value="$PROJECT_DIR$/src/MapCanvas.java" />
         <option value="$PROJECT_DIR$/src/MenuButtonListener.java" />
         <option value="$PROJECT_DIR$/src/GUIDriver.java" />
+        <option value="$PROJECT_DIR$/src/MapCanvas.java" />
       </list>
     </option>
   </component>
@@ -702,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2998">
-          <caret line="215" column="27" lean-forward="false" selection-start-line="215" selection-start-column="27" selection-end-line="215" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -749,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUIDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="-930">
           <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -771,6 +756,16 @@
             <element signature="e#10080#10081#0" expanded="true" />
             <element signature="e#10286#10287#0" expanded="true" />
             <element signature="e#10318#10319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
