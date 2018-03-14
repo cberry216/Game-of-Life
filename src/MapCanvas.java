@@ -12,7 +12,8 @@ public class MapCanvas extends JPanel {
 
     private int width, height, numCols, numRows;
     int cellLength;
-    ArrayList<Point> livingCells, deadCells;
+    ArrayList<Point> livingCells;
+
     private GUIDriver gui;
 
     /**
@@ -28,7 +29,6 @@ public class MapCanvas extends JPanel {
         this.cellLength = cellLength;
         this.gui = gui;
         this.livingCells = new ArrayList<>();
-        this.deadCells = new ArrayList<>();
 
         this.numCols = 0;
         this.numRows = 0;

@@ -23,7 +23,7 @@ public class GUIDriver extends JFrame {
     private JSpinner cellSize;
 
     private JMenuBar menuBar;
-    private JMenuItem fileMenu;
+    private JMenu fileMenu;
     private JMenu gameMenu;
     private JMenuItem exitGame;
     private JMenuItem random;
@@ -45,7 +45,7 @@ public class GUIDriver extends JFrame {
 
         // Add all components
         this.game = new GameDriver();
-        this.map = new MapCanvas(this.screenSize.width - 220, this.screenSize.height - 220, 10, this);
+        this.map = new MapCanvas(this.screenSize.width - 219, this.screenSize.height - 219, 10, this);
         this.start = new JButton("Start");
         this.stop = new JButton("Stop");
         this.reset = new JButton("Reset");
@@ -66,7 +66,7 @@ public class GUIDriver extends JFrame {
         this.play = false;
         this.playSpeed = 1;
 
-        // True if the game has already been started, reset upon Reseting
+        // True if the game has already been started, reset upon resetting
         this.started = false;
 
         this.addListeners();
